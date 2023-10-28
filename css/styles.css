@@ -326,22 +326,23 @@ background-color:#404BBF;
         letter-spacing: 0.02em;
 }
 
-.portfolio-box {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 
-}
 
 .our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+.portfolio-box {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-menu {
     display: flex;
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio {
@@ -363,6 +364,11 @@ width:calc((100% - 48px) / 3);
 }
 .portfolio-list:not(:last-child) {
     margin-right: 24px;
+}
+
+.portfolio-app {
+    padding: 32px 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-item {
