@@ -333,17 +333,14 @@ background-color:#404BBF;
     padding-bottom: 120px;
 }
 
-.portfolio-box {
-    border: 1px solid #e7e9fc;
-    border-top: none;
+.portfolio-menu {
+display: flex;
+flex-wrap: wrap;
+row-gap: 48px;
+column-gap: 24px;
+
 }
 
-.portfolio-menu {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
-}
 
 .portfolio {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -360,10 +357,17 @@ background-color:#404BBF;
 }
 
 .portfolio-list {
+display: flex;
+flex-wrap: wrap;
+row-gap: 48px;
+column-gap: 24px;
 width:calc((100% - 48px) / 3);
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 .portfolio-list:not(:last-child) {
     margin-right: 24px;
+    
 }
 
 .portfolio-app {
