@@ -111,6 +111,10 @@ margin-right: 76px;
     gap: 40px;
 }
 
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+
 .menu {
     display: flex;
     gap: 40px;
@@ -161,8 +165,8 @@ margin-right: 76px;
 
 .hero {
     background-color: #2E2F42;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-main {
@@ -227,6 +231,10 @@ background-color:#404BBF;
 
 .main-list {
     width: calc((100% - 72px) / 4)
+}
+
+.main-list:not(:last-child) {
+    margin-right: 24px;
 }
 
 .main-item {
@@ -331,6 +339,10 @@ background-color:#404BBF;
 .our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.container-portfolio {
+border: 1px solid #e7e9fc;
 }
 
 .portfolio-menu {
